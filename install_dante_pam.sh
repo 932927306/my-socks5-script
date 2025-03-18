@@ -74,8 +74,8 @@ fi
 
 # 6. 创建一个测试用的系统用户和密码 (myproxy / mypassword)
 #    你可自行修改为其他用户名、密码
-SOCKS5_USER="myproxy"
-SOCKS5_PASS="mypassword"
+SOCKS5_USER="2025"
+SOCKS5_PASS="123456"
 
 # 若用户不存在则创建
 id -u "$SOCKS5_USER" &>/dev/null || useradd -m -s /bin/bash "$SOCKS5_USER"
